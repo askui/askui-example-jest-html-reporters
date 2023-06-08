@@ -1,0 +1,4 @@
+.DS_Store
+node_modules
+report
+jest_html_reporters*

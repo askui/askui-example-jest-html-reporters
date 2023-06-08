@@ -1,0 +1,24 @@
+{
+  "name": "askui-reporter-test-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/fluent-ffmpeg": "^2.1.21",
+    "@types/jest": "^29.5.2",
+    "askui": "/Users/adrianstritzinger/Projects/askui/askui/packages/askui-nodejs",
+    "fluent-ffmpeg": "^2.1.2",
+    "jest": "^29.5.0",
+    "jest-html-reporters": "^3.1.4",
+    "sharp": "^0.32.1",
+    "ts-jest": "^29.1.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
