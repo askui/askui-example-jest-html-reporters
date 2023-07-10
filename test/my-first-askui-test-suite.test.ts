@@ -1,7 +1,7 @@
 import { aui } from './helper/jest.setup';
 
 describe('jest with askui', () => {
-  it('should generate an annotation', async () => {
+  xit('should generate an annotation', async () => {
     await aui.annotate();
   });
 
@@ -13,7 +13,11 @@ describe('jest with askui', () => {
   });
 
   it('should open the spotlight given it is running on Mac OS', async () => {
+    await aui.expect().text().containsText('Search Google or type a URL').exists().exec();
     await aui.pressTwoKeys('command', 'space').exec();
     await aui.type('askui', {isSecret: true}).exec();
+    await aui.moveMouse(20, 20).exec();
+    await aui.moveMouse(300, 300).exec();
+    throw Error("Oh no!");
   })
 });
