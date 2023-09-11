@@ -1,0 +1,2 @@
+# askui-example-jest-html-reporters
+To use this reporter you have to have [ffmpeg](http://www.ffmpeg.org/) installed on your system (including all necessary encoding libraries like libmp3lame or libx264).
